@@ -90,4 +90,35 @@ h2{
 h1{
     margin: 30px;
     color: white;
+
+}
+
+
+@media screen and (max-width: 480px) {
+    /* For mobile devices */
+    .contains{
+        width: 45%;
+        height: 50vh;
+        flex-direction: column;
+    }
+    .yourName{
+        margin-top: -50px;
+    }
+    .line{
+        margin-top: -20px;
+        height: 1px;
+        width: 250px;
+    }
+    img{
+        top: -70px;
+        position: absolute;
+        width: 150px;
+        height: 150px;
+        right: 50px;
+    }
+    .inputs{
+        margin-top: -95px;
+        margin-right: 127.5px;
+    }
+
 }
