@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Love Calculator</title>
+    <link rel="icon" href="/logo.png">
+</head>
+<body>
+    <section class="container">
+        <h1>CALCULATE YOUR LOVE PERCECNTAGE</h1>
+        <div class="contains">
+            <div class="yourName">
+                <h2>YOUR NAME</h2>
+                <input type="text" placeholder="Enter your name." id="yourName" required>
+                <div class="gender">
+                    <label for="Male">Choose Gender </label><br>
+                    <label for="Male">Male :</label>
+                    <input type="radio" value="Male" name="yourGender" class="radio"><br>
+                    <label for="Male">Female :</label>
+                    <input type="radio" value="Female" name="yourGender" class="radio">
+                </div>
+            </div>
+
+
+            <div class="line">
+                <img src="/logo.png" alt="image">
+                <input type="text" name="display" id="display" class="inputs" >
+            </div>
+
+
+            <div class="partnerName">
+                <h2>PARTNER'S NAME</h2>
+                <input type="text" placeholder="Enter your partner's name." id="partnerName" required>
+                <div class="gender">
+                    <label for="Male">Choose Gender </label><br>
+                    <label for="Male">Male :</label>
+                    <input type="radio" value="Male" name="partnerGender" class="radio"><br>
+                    <label for="Male">Female :</label>
+                    <input type="radio" value="Female" name="partnerGender" class="radio">
+                </div>
+            </div>
+        </div>
+        <div class="btn">
+            <input type="button" value="Calculate Love %" id="btn" onclick="calculateLove()">
+        </div>
+    </section>
+    <script src="script.js"></script>
+</body>
+</html>
